@@ -1,12 +1,10 @@
 import streamlit as st
 import pandas as pd
 import mlflow.sklearn
-from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import precision_score, recall_score, f1_score,accuracy_score
 from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
-from streamlit_shap import st_shap
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
 
