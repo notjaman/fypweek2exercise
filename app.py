@@ -31,7 +31,7 @@ with mlflow.start_run():
     f1 = f1_score(y_test, y_pred, average='weighted')
 
     # 5. Log Parameters, Metrics, and the Model
-    mlflow.log_param("n_estimators", n_estimators)
+    mlflow.log_param("n_customer", customer)
     mlflow.log_metric("accuracy", accuracy)
     mlflow.log_metric("accuracy", accuracy)
     mlflow.log_metric("precision", precision)
